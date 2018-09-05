@@ -1,5 +1,6 @@
 /**
 按行读取数据，用于不定长输入数据的读取，借助getline()逐行读取字符串，再利用stringstream分割字符串
+控制台结束输入：windows ctrl+z 再按回车；linux下 ctrl+d
 */
 
 #include <iostream>
