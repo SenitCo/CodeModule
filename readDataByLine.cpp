@@ -150,3 +150,19 @@ int main()
     system("pause");
     return 0;
 }
+
+/**************************************************************************/
+int main()
+{
+    vector<int> data;
+    while (true)
+    {
+        int value;
+        cin >> value;
+        data.push_back(value);
+        if (getchar() == '\n')
+            break;
+    }
+    for (int value : data)
+        cout << value  << " ";
+}
